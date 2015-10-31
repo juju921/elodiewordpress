@@ -1022,31 +1022,38 @@ ul.nav .menu-desc {
     font-size: 17px;
     margin-top: 0;
 }
-/*.grid, .post-content {
-    background-color: #FFFFFF;
-   overflow: hidden;
-border-radius: 10px;
-    display: block;
-    float: left;
-    margin: 10px;
-    width: 23%;
-}*/
+
 
 .grid .thumb{
     margin-bottom: 0;
 }
 
 
+#grid{
+	margin-top: 83px;
+}
+
 #grid-container {
+
     width:      960px;
 }
 
-#grid-container .post-content {
-    width:      220px;
-padding:    0px 10px 15px 10px;
+.grid-item {
+	width: 250px;
+	border-radius: 10px;
 }
 
-
+.grid-item h2 {
+	font-family: 'Lobster', Helvetica, Arial, serif;
+	font-size: 23px;
+	color: #b8a774;
+	line-height: 31px;
+	text-align: center;
+	font-weight: normal;
+	font-style: normal;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+}
 
 
 /* Infinite Scroll */
@@ -2004,8 +2011,10 @@ button.contact-submit:active, a.learnmore:active, #commentbox div.reply a:active
 
 .container {
 	position: relative;
+	padding-bottom: 80px;
 	width: 960px;
 	margin: 0 auto;
+
 }
 
 .containergal{
@@ -2112,7 +2121,51 @@ button.contact-submit:active, a.learnmore:active, #commentbox div.reply a:active
 
 	article .post-desc {
 		width: 100%;
+		padding: 10px 0;
 	}
+
+	  p{
+
+		padding: 10px 10px;
+	}
+
+
+
+	#masthead h1{
+		background: url("images/camepagesactialites.png") no-repeat;
+		color: #5d5b5b;
+		font-family: 'rochesterregular',arial,sans-serif;
+		font-size: 1.25em;
+		font-style: normal;
+		font-weight: normal;
+		height: 211px;
+		left: 44%;
+		line-height: 148px;
+		position:static;
+		margin: auto;
+		text-transform: capitalize;
+		width: 146px;
+		z-index: 40;
+	}
+
+	#blocsociaux {
+		float: right;
+		width: 60%;
+	}
+	#retouraccueil span {
+		display: block;
+		font-size: 21px;
+	}
+
+	#retouraccueil {
+		padding-top: 13px;
+		width: 36%;
+		float: left;
+		margin-left: 0;
+	}
+
+
+
 
 	#left,  #leftgal {
 		width: 100%;

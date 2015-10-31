@@ -12,7 +12,7 @@ global $options;
 $location = icore_get_location();
 ?>
 
-    <div id="grid-container" class="transitions-enabled fluid masonry js-masonry grid">
+    <div id="grid">
         <article id="post-<?php the_ID();?>" <?php post_class();
         ?>>
 
@@ -29,7 +29,7 @@ $location = icore_get_location();
 
 
 
-                <div class="post-content">
+                <div class="post-content grid-item">
 
                     <h2 class="gallery-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
